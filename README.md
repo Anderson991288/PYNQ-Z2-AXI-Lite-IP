@@ -8,6 +8,10 @@ AXI 是 ARM 定義的一種介面協議，作為 AMBA (Advanced Microcontroller 
 
 AXI 協議定義了 5 個通道：2 個用於讀取（讀取地址和讀取數據），3 個用於寫入（寫入地址、寫入數據）。一個 AXI4/AXI3/AXI4-Lite 介面可以是只讀的（只包含 2 個讀取通道）或只寫的（只包含 3 個寫入通道）。
 
+![image](https://github.com/Anderson991288/PYNQ-Z2-AXI-Lite-IP/assets/68816726/4fb969b9-964b-4f1f-a9b8-f05c932a53a8)
+
+
+
 此外，還有 3 種類型的 AXI4-介面 (AMBA 4.0)：
 
 - AXI4 (Full AXI)：用於高性能記憶體對映需求
