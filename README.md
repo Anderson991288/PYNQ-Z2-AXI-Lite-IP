@@ -2,6 +2,18 @@
 
 ### 透過 PYNQ 來控制 FPGA 上的自定義 IP 來操作 LED 燈
 
+### AXI (Advanced eXtensible Interface)
+
+AXI 是 ARM 定義的一種介面協議，作為 AMBA (Advanced Microcontroller Bus Architecture) 標準的一部分。現在，幾乎所有的 Xilinx IP 都使用 AXI 介面，包括 Zynq、Zynq MP、MicroBlaze 和新的 Versal 處理器。
+
+AXI 協議定義了 5 個通道：2 個用於讀取（讀取地址和讀取數據），3 個用於寫入（寫入地址、寫入數據）。一個 AXI4/AXI3/AXI4-Lite 介面可以是只讀的（只包含 2 個讀取通道）或只寫的（只包含 3 個寫入通道）。
+
+此外，還有 3 種類型的 AXI4-介面 (AMBA 4.0)：
+
+- AXI4 (Full AXI)：用於高性能記憶體對映需求
+- AXI4-Lite：用於簡單的、低吞吐量的記憶體對映通訊
+- AXI4-Stream：用於高速串流數據
+
 ## 1.開一個新專案，板子選擇PYNQ-Z2。若找不到，參考前一頁的方法加入板子
 
 ![image](https://github.com/Anderson991288/PYNQ-Z2-note/assets/68816726/95824b87-74f8-48ab-b70e-122d393c5d89)
